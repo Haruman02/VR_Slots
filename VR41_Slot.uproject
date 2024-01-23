@@ -6,7 +6,7 @@
 	"Plugins": [
 		{
 			"Name": "XRVisualization",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "ResonanceAudio",
@@ -49,6 +49,20 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "MicrosoftOpenXR",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ef8930ca860148c498b46887da196239",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens"
+			]
+		},
+		{
+			"Name": "MrtkHub",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/211d009f26e943f19f41bbbaff9f273c"
 		}
 	],
 	"TargetPlatforms": [
